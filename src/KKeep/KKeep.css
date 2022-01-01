@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.header h3 {
+  background-color: chocolate;
+  width: 100%;
+  padding: 30px 30px;
+  color: aliceblue;
+  letter-spacing: 0.8px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 360px;
+  height: 230px;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 300px;
+  height: 40px;
+  border: none;
+  box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.8);
+  outline: none;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+input {
+  margin-top: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+textarea {
+  height: 100px;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.8);
+  resize: none;
+  padding: 10px 20px;
+  margin-top: 7px;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  background-color: chocolate;
+  border-radius: 100%;
+  border: none;
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  top: 130px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.note {
+  width: 200px;
+  height: 140px;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 17px rgba(0, 0, 0, 0.8);
+  position: relative;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.note-heading {
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 115px;
+  cursor: pointer;
+  right: -5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 35.6vh;
+  text-align: center;
+  background-color: chocolate;
+  padding: 20px 0;
+  color: #fff;
+}
